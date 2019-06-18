@@ -1,15 +1,15 @@
-_React Native App Intent Opener_
+#React Native App Intent Opener
 
-** Opens Android App Intent by Package Name and Actions **
+**Opens Android App Intent by Package Name and Actions**
 
-** Features **
+**Features**
 
 - Currently supports only on Android
 - Send Extra key-values to intents and reads response from intents if any
 - Promise based
 - Types supported
 
-** How to Use **
+**How to Use**
 
 1. Install node module
    `npm install react-native-app-intent`
@@ -30,7 +30,7 @@ _React Native App Intent Opener_
       `<OpenIntentComponent invoke={true|false} onResponse={console.log} {...params} />`
       `/** when props updates from false to true, it will open intent */`
 
-** Roadmap **
+**Roadmap**
 
 - UTs
 - Support on iOS using URL Schema
