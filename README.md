@@ -1,4 +1,4 @@
-#React Native App Intent Opener
+**React Native App Intent Gate**
 
 **Opens Android App Intent by Package Name and Actions**
 
