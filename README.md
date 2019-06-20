@@ -12,14 +12,14 @@
 **How to Use**
 
 1. Install node module
-   `npm install react-native-app-intent`
+   `npm i react-native-intent-gate`
 2. Link the native module
-   `react-native link react-native-app-intent`
+   `react-native link react-native-intent-gate`
 3. Import module in code
-   `import {openIntent,OpenIntentComponent} from 'react-native-app-intent'`
+   `import {openIntent,OpenIntentComponent} from 'react-native-intent-gate'`
 
 4. Code
-   `const params = { action: "com.acme.app", // only required extra: { key: value, title: "Open intent", requestCode: 12345, }`
+   `const params = { action: "com.example.app", // only required extra: { key: value, title: "Open intent", requestCode: 12345, }`
 
    You can call openIntent in two ways:
 
